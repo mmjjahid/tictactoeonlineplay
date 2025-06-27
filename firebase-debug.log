@@ -1,0 +1,25 @@
+[debug] [2025-01-11T17:09:54.173Z] ----------------------------------------------------------------------
+[debug] [2025-01-11T17:09:54.176Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:create android tictactoeonlineplay (android) --package-name=tictactoeonlineplay --json --project=tictactoe-online-play
+[debug] [2025-01-11T17:09:54.177Z] CLI Version:   13.29.1
+[debug] [2025-01-11T17:09:54.177Z] Platform:      win32
+[debug] [2025-01-11T17:09:54.177Z] Node Version:  v20.14.0
+[debug] [2025-01-11T17:09:54.177Z] Time:          Sat Jan 11 2025 23:09:54 GMT+0600 (Bangladesh Standard Time)
+[debug] [2025-01-11T17:09:54.178Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-11T17:09:54.253Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2025-01-11T17:09:54.257Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-11T17:09:54.258Z] > authorizing via signed-in user (developersajid.net@gmail.com)
+[info] Create your ANDROID app in project tictactoe-online-play:
+[debug] [2025-01-11T17:09:54.262Z] Checked if tokens are valid: true, expires at: 1736618188308
+[debug] [2025-01-11T17:09:54.262Z] Checked if tokens are valid: true, expires at: 1736618188308
+[debug] [2025-01-11T17:09:54.263Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/tictactoe-online-play/androidApps [none]
+[debug] [2025-01-11T17:09:54.264Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/tictactoe-online-play/androidApps {"displayName":"tictactoeonlineplay (android)","packageName":"tictactoeonlineplay"}
+[debug] [2025-01-11T17:09:54.795Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/tictactoe-online-play/androidApps 400
+[debug] [2025-01-11T17:09:54.795Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/tictactoe-online-play/androidApps {"error":{"code":400,"message":"Request contains an invalid argument.","status":"INVALID_ARGUMENT"}}
+[debug] [2025-01-11T17:09:54.797Z] Request to https://firebase.googleapis.com/v1beta1/projects/tictactoe-online-play/androidApps had HTTP Error: 400, Request contains an invalid argument.
+[debug] [2025-01-11T17:09:55.084Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/tictactoe-online-play/androidApps had HTTP Error: 400, Request contains an invalid argument.
+    at responseToError (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create Android app for project tictactoe-online-play. See firebase-debug.log for more info.

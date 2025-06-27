@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "509155336915",
+    "project_id": "tictactoe-online-play",
+    "storage_bucket": "tictactoe-online-play.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509155336915:android:a4fbdfb9c9b4a2270dea26",
+        "android_client_info": {
+          "package_name": "com.example.tictactoeonlineplay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI83jIt_Cs6rZ8EA1wsYvqMHJKsVOYHe0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509155336915:android:a4f6842e096068430dea26",
+        "android_client_info": {
+          "package_name": "com.example.tictactoeonlineplay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI83jIt_Cs6rZ8EA1wsYvqMHJKsVOYHe0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
